@@ -1,0 +1,29 @@
+.body{
+    display: flex;
+    background-color:  #ffc8fb;
+}
+
+.divForm{
+    display: flex;
+    right: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height:100%;
+    right: 100%;
+    display: flex;
+    padding: 50px;
+    border-radius: 15%;
+}
+
+.formulario{
+    height: 100%;
+    right: 100%;
+    background-color: #ff92c2;
+    padding: 15px;
+    border-radius: 3%;
+    border: #595758;
+}
