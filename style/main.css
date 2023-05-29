@@ -1,6 +1,6 @@
 .body{
     display: flex;
-    background-color:  #ffc8fb;
+    background-color:  #faa1b5;
 }
 
 .divForm{
@@ -9,21 +9,26 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-top: 3%;
 }
 
 .form{
     height:100%;
     right: 100%;
     display: flex;
-    padding: 50px;
-    border-radius: 15%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 .formulario{
     height: 100%;
     right: 100%;
-    background-color: #ff92c2;
+    background-color: #faa1b5;
     padding: 15px;
     border-radius: 3%;
-    border: #595758;
+}
+
+.botoes{
+    color:  #FFEEF2;
 }

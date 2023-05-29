@@ -39,6 +39,10 @@
                     <label class="form-label">Forma de Pagamento:</label>
                     <input class="form-control" id="modoPag">
                 </div>
+                <div class="botoes">
+                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black" >Consultar Vendas</button>
+                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black" >Salvar</button>
+                </div>
             </div>
         </form>
     </div>
