@@ -17,31 +17,31 @@
     ?>
 
     <div class="divForm">
-        <form class="form" action="#">
+        <form class="form" action="../include/insertVendas.php" method="post">
             <div class="formulario">
                 <div class="mb-3">
                     <label class="form-label">Nome do produto:</label>
-                    <input class="form-control" id="nomeProd">
-                </div>
+                    <input type="text" class="form-control" name="nomeProd">
+                </div>  
                 <div class="mb-3">
                     <label class="form-label">Tecido:</label>
-                    <input class="form-control" id="tecido">
+                    <input class="form-control" name="tecido">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Cor:</label>
-                    <input class="form-control" id="cor">
+                    <input class="form-control" name="cor">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Tamanho:</label>
-                    <input class="form-control" id="tamanho">
+                    <input class="form-control" name="tamanho">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Forma de Pagamento:</label>
-                    <input class="form-control" id="modoPag">
+                    <input class="form-control" name="modoPag">
                 </div>
                 <div class="botoes">
                     <button type="button" class="btn botoes" style="background-color: #f77594; color: black" >Consultar Vendas</button>
-                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black" >Salvar</button>
+                    <button type="submit"  class="btn botoes" style="background-color: #f77594; color: black" >Salvar</button>
                 </div>
             </div>
         </form>
