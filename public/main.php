@@ -22,7 +22,7 @@
                 <div class="mb-3">
                     <label class="form-label">Nome do produto:</label>
                     <input type="text" class="form-control" name="nomeProd">
-                </div>  
+                </div>
                 <div class="mb-3">
                     <label class="form-label">Tecido:</label>
                     <input class="form-control" name="tecido">
@@ -37,11 +37,16 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Forma de Pagamento:</label>
-                    <input class="form-control" name="modoPag">
+                    <select class="form-control" name="modoPag">
+                        <option value="">** Selecione **</option>
+                        <option value="PIX">PIX</option>
+                        <option value="Cartão de Crédito">Cartão de Crédito</option>
+                        <option value="Cartão de Débito">Cartão de Débito</option>
+                    </select>
                 </div>
                 <div class="botoes">
-                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black" >Consultar Vendas</button>
-                    <button type="submit"  class="btn botoes" style="background-color: #f77594; color: black" >Salvar</button>
+                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black">Consultar Vendas</button>
+                    <button type="submit" class="btn botoes" style="background-color: #f77594; color: black">Salvar</button>
                 </div>
             </div>
         </form>
