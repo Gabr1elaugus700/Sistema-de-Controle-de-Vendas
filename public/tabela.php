@@ -28,21 +28,22 @@
                 <th>Data</th>
                 <th>#</th>
             </tr>
-            
+
             <?php
 
             while ($row = mysqli_fetch_assoc($resultado)) {
                 echo "<tr id='itensTabela'>";
 
-                    echo "<td>" . $row['id'] . "</td>";
-                    echo "<td>" . $row['nomeProd'] . "</td>";
-                    echo "<td>" . $row['cor'] . "</td>";
-                    echo "<td>" . $row['tecido'] . "</td>";
-                    echo "<td>" . $row['tamanho'] . "</td>";
-                    echo "<td>" . $row['modoPag'] . "</td>";
-                    echo "<td>" . $row['dataVenda'] . "</td>";
-                    echo "<td>" . "#" . "</td>";
-                echo "<tr>";
+                echo "<td>" . $row['id'] . "</td>";
+                echo "<td>" . $row['nomeProd'] . "</td>";
+                echo "<td>" . $row['cor'] . "</td>";
+                echo "<td>" . $row['tecido'] . "</td>";
+                echo "<td>" . $row['tamanho'] . "</td>";
+                echo "<td>" . $row['modoPag'] . "</td>";
+                echo "<td>" . $row['dataVenda'] . "</td>";
+                echo "<td>" . "#" . "</td>";
+
+                echo "</tr>";
             }
 
             ?>
