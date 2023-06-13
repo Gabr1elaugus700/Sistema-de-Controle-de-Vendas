@@ -16,8 +16,9 @@ $cor = $_POST["cor"];
 $tamanho = $_POST["tamanho"];
 $modoPag = $_POST["modoPag"];
 
+$hoje = date('Y/m/d');
 
-$insert = "INSERT INTO vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag) VALUES ('$id', '$nomeProd', '$tecido', '$cor', '$tamanho', '2023-05-26', '$modoPag');";
+$insert = "INSERT INTO vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag) VALUES ('$id', '$nomeProd', '$tecido', '$cor', '$tamanho', '$hoje', '$modoPag');";
 
 $executa_insert = $conn->query($insert);
 

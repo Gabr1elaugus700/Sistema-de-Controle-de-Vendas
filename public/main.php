@@ -16,6 +16,14 @@
     require_once('../config/conectaLocal.php');
     ?>
 
+    <header>
+        <div>
+            <?php include '../public/index.php'; ?>
+        </div>
+    </header>
+
+
+
     <div class="divForm">
         <form class="form" action="../include/insertVendas.php" method="post">
             <div class="formulario">
@@ -45,7 +53,9 @@
                     </select>
                 </div>
                 <div class="botoes">
-                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black">Consultar Vendas</button>
+
+                    <button type="button" class="btn botoes" style="background-color: #f77594; color: black"><A href="./tabela.php">Consultar Vendas</A></button>
+
                     <button type="submit" class="btn botoes" style="background-color: #f77594; color: black">Salvar</button>
                 </div>
             </div>

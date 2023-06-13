@@ -37,3 +37,8 @@ insert into vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag, valor) VA
 insert into vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag, valor) VALUES ('11','Tabata','Liso','Rose','PP','2023/05/06','Pix',79.90);
 
 }
+
+---> CRIANDO TABELA DE CADASTRO DE PRODUTOS:
+{
+    
+}
