@@ -14,13 +14,12 @@
 
 <script>
     function botao() {
-        // const valorDesc = valorTotal - porcentagemDesconto;
-        // const valorComissao = valorDesc * comissao;
-
         const valorTotal = parseFloat(document.getElementById("valorTotal").value);
         const porcentagemDesconto = parseFloat(document.getElementById("desconto").value);
         const comissao = parseFloat(document.getElementById("comissao").value);
-        var valorDesc = valorTotal - porcentagemDesconto;
+        const porDesc = porcentagemDesconto / 100;
+
+        const valorDesc = valorTotal - (valorTotal * porDesc);
         const porComi = comissao / 100;
         const valorComissao = valorDesc * porComi;
 
@@ -35,8 +34,6 @@
                 '<b> Valor Antigo:</b> R$' + valorTotal + '<br>' +
                 '<b> Valor Com desconto:</b> R$' + valorDesc + '<br>' +
                 '<b> Total da Comissão:</b> R$ ' + valorComissao
-
-            //  +  'Valor Comissão: 
 
 
         });
