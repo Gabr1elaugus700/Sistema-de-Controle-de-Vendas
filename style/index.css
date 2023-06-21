@@ -8,7 +8,7 @@
 .itens {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     background-color: #f77594;
     height: 10vh;
     padding-top: 3%;
