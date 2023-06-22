@@ -56,7 +56,7 @@
 
     <div class="corpo">
         <div class="form">
-            <form class="formulario" id="form">
+            <form class="formulario" id="form" method="POST" action="../include/insertProd.php" >
                 <h3>Calculo de Desconto</h3>
                 <div class="mb-3">
                     <label for="valorTotal" class="form-label">Valor Total:</label>
