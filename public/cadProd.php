@@ -39,7 +39,7 @@
             </div>
             <div class="valores">
                 <label class="form-label label">Código Invicta:</label>
-                <input type="text" class="form-control" name="id_prod">
+                <input type="text" class="form-control" name="cod_invicta">
             </div>
             <div class="valores">
                 <label class="form-label label">Modelo</label>
@@ -50,7 +50,7 @@
                 <input type="text" class="form-control" name="precoUni">
             </div>
             <div class="valores">
-                <label class="form-label label">Quantidade:</label>
+                <label class="form-label label">Quantidade Por Tamanho: </label>
                 <input type="text" class="form-control" name="qtde">
             </div>
             <div class="valores">

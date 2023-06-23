@@ -29,23 +29,4 @@ if ($executa_insert == true) {
 }
 
 
-// INSERT INTO `vendas` (`id`, `nomeProd`, `tecido`, `cor`, `tamanho`, `data`, `modoPag`) VALUES ('2', 'Paty', 'Liso', 'Branco', 'P', '2023-05-26', 'PIX');
-
-// SELECT MAX(id) FROM `vendas`;
-
-
-// {Mostra o Resultado da Query}
-
-// if ($result->num_rows > 0) {
-//     // Obter a única linha de resultado
-//     $row = $result->fetch_assoc();
-
-//     // Exibir os dados da linha
-//     echo "ID: " . $row['id']; 
-// } else {
-//     echo "Nenhum resultado encontrado.";
-// }
-
-
-
 $conn->close();
