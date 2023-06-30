@@ -15,10 +15,11 @@ $tecido = $_POST["tecido"];
 $cor = $_POST["cor"];
 $tamanho = $_POST["tamanho"];
 $modoPag = $_POST["modoPag"];
+$data = $_POST["data"];
 
-$hoje = date('Y/m/d');
+$dataVenda = $data('Y/m/d');
 
-$insert = "INSERT INTO vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag) VALUES ('$id', '$nomeProd', '$tecido', '$cor', '$tamanho', '$hoje', '$modoPag');";
+$insert = "INSERT INTO vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag) VALUES ('$id', '$nomeProd', '$tecido', '$cor', '$tamanho', '$dataVenda', '$modoPag');";
 
 $executa_insert = $conn->query($insert);
 

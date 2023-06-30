@@ -7,21 +7,24 @@
 
 .itens {
     display: flex;
-    justify-content: center;
-    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
     background-color: #f77594;
     height: 10vh;
-    padding-top: 3%;
-    padding-bottom: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
 }
 
 .lista-centralizada{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    gap: 4%;
+    
 }
 
 ul,
@@ -36,21 +39,3 @@ a {
     text-decoration: none;
 
 }
-/* 
-ul,
-li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
-
-
-/* 
-.lista-centralizada {
-    display: flex;
-    justify-content: center;
-}
-.lista-centralizada li {
-    margin: 0 10px;
-} */

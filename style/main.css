@@ -28,6 +28,9 @@
     border-radius: 3%;
 }
 
-.botoes{
-    color:  #FFEEF2;
+#botoes{
+    color: #FFEEF2;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
 }
