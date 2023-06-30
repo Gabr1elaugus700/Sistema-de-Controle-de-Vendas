@@ -17,9 +17,8 @@ $tamanho = $_POST["tamanho"];
 $modoPag = $_POST["modoPag"];
 $data = $_POST["data"];
 
-$dataVenda = $data('Y/m/d');
 
-$insert = "INSERT INTO vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag) VALUES ('$id', '$nomeProd', '$tecido', '$cor', '$tamanho', '$dataVenda', '$modoPag');";
+$insert = "INSERT INTO vendas (id, nomeProd, tecido, cor, tamanho, data, modoPag) VALUES ('$id', '$nomeProd', '$tecido', '$cor', '$tamanho', '$data', '$modoPag');";
 
 $executa_insert = $conn->query($insert);
 
@@ -31,3 +30,5 @@ if ($executa_insert == true) {
 
 
 $conn->close();
+
+return "ok";

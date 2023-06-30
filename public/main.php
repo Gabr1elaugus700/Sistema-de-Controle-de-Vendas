@@ -45,7 +45,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Data da Venda:</label>
-                    <input class="form-control" name="data" id="datepicker">
+                    <input class="form-control" type="date" name="data" id="datepicker">
                     
                 </div>
                 <div class="mb-3">
