@@ -2,18 +2,26 @@
 
 require_once('../config/conectaLocal.php');
 
-$id = $_GET['id'];
+$id = filter_input(INPUT_GET, "id", FILTER_SANITIZE_NUMBER_INT);
 
-$sql = "delete from vendas where ID = '$id' ";
+if (!empty($id)) {
+    $sql = "DELETE from vendas where ID = $id";
 
-$delete = $conn->query($sql);
-
-if ($delete == true) {
-    echo json_encode(
-        array("retorno" => "sucesso")
-    );
+    $delete = $conn->query($sql);
+ 
+    if ($delete == true) {
+        $retorna = ['erro' => false, 'msg' => "<div class='alert alert-success' role='alert'>
+    Usuário Excluido com sucesso!
+  </div>"];
+    } else {
+        $retorna =['erro' => true, 'msg' => "<div class='alert alert-danger' role='alert'>
+        Erro. Usuário não excluido
+      </div>"];
+    }
 } else {
-    echo json_encode(
-        array("retorno" => "erro")
-    );
+    $retorna =['erro' => true, 'msg' => "<div class='alert alert-danger' role='alert'>
+    Nenhum Usuário encontrado. Verifique! 
+  </div>"];
 }
+
+echo json_encode($retorna); 

@@ -51,7 +51,6 @@
                     while ($row = mysqli_fetch_assoc($resultado)) {
                         $id = $row['ID_PRODUTO'];
                         echo "<tr id='itensTabela'>";
-
                         echo "<td>" . $id . "</td>";
                         echo "<td>" . $row['COD_INVICTA'] . "</td>";
                         echo "<td>" . $row['NOME_PROD'] . "</td>";
@@ -76,10 +75,9 @@
                                     </svg>
                                 </a>
                             </button>
-                            </a>
                         </td>
-                    </tr>"
-                    ;} ?>
+                    </tr>";
+                    }?>
                 </table>
 
             </div>
