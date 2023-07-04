@@ -25,7 +25,7 @@
     ?>
     <header>
         <div>
-            <?php include '../public/index.php'; ?>
+            <?php include '../public/sideBar.php'; ?>
         </div>
     </header>
     <div class="container">

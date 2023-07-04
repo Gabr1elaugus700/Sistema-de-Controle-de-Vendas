@@ -1,7 +1,9 @@
+@import url("./root.css");
+
 .corpo{
-    background-color:  #faa1b5;
+    background-color:  var(--background-color);
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +30,7 @@
     display: flex;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid rgb(255, 255, 255);
+    border: var(--border-table);
     flex-direction: column;
 }
 .formulario{    
@@ -39,4 +41,18 @@
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+.botaoPreco{
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--button-collor);
+    color: var(--text-button);
+}
+
+
+.botaoPreco:hover{
+    background-color: var(--sidebar-color);
 }

@@ -30,8 +30,7 @@
         Swal.fire({
             icon: 'success',
             title: 'Aqui está o seu Cálculo:',
-            html:
-                '<b> Valor Antigo:</b> R$' + valorTotal + '<br>' +
+            html: '<b> Valor Antigo:</b> R$' + valorTotal + '<br>' +
                 '<b> Valor Com desconto:</b> R$' + valorDesc + '<br>' +
                 '<b> Total da Comissão:</b> R$ ' + valorComissao
 
@@ -47,7 +46,7 @@
         <div>
             <?php
 
-            include '../public/index.php';
+            include '../public/sideBar.php';
             require_once('../config/conectaLocal.php');
 
             ?>
@@ -56,25 +55,25 @@
 
     <div class="corpo">
         <div class="form">
-            <form class="formulario" id="form" method="POST" action="../include/insertProd.php" >
+            <form class="formulario" id="form" method="POST" action="../include/insertProd.php">
                 <h3>Calculo de Desconto</h3>
                 <div class="mb-3">
                     <label for="valorTotal" class="form-label">Valor Total:</label>
-                    <input type="text" class="form-control" id="valorTotal" name="valorTotal" required="required">
+                    <input type="text" class="form-control input" id="valorTotal" name="valorTotal" required="required">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Porcentagem Desconto:</label>
-                    <input class="form-control" id="desconto" name="desconto" required="required">
+                    <input class="form-control input" id="desconto" name="desconto" required="required">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Comissão:</label>
-                    <input class="form-control" id="comissao" name="comissao" required="required">
+                    <input class="form-control input" id="comissao" name="comissao" required="required">
                 </div>
-
+                <button type="button" class="btn botaoPreco" onclick="botao()">Calcular Desconto</button>
             </form>
-            <button type="button" class="btn botoes" style="background-color: #f77594; color: black ; padding: 20px" id="calcularDesconto" onclick="botao()">Calcular Desconto</button>
+
         </div>
     </div>
 

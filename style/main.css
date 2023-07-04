@@ -1,5 +1,7 @@
+@import url("./root.css");
+
 .body{
-    background-color:  #faa1b5;
+    background-color:  var(--background-color);
 }
 
 .divForm{
@@ -17,14 +19,12 @@
     display: flex;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid rgb(255, 255, 255);
+    border: var(--border-table);
 }
 
 .formulario{
     height: 100%;
     right: 100%;
-    background-color: #faa1b5;
-    padding: 15px;
     border-radius: 3%;
 }
 
@@ -33,4 +33,12 @@
     display: flex;
     justify-content: space-between;
     gap: 3px;
+}
+.botao{
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--button-collor);
+    color: var(--text-button);
 }

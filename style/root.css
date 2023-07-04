@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /* ===== Colors ===== */
+    --sidebar-color: #d8c3f4;
+    --primary-color: #5f20b1;
+    --primary-color-light: #ece1f9;
+    --text-color: #020104;
+    --background-color: #ece1f9;
+    --border-table: 4px solid #5f20b1;
+    --color-cabecalho: #d8c3f4;
+    --button-collor: #5f20b1;
+    --text-button: #ece1f9;
+
+}
+
+
+.content {
+    margin-left: 200px;
+    /* Deixa um espaço para a sidebar */
+    transition: margin-left 0.3s ease;
+}
+
+.content.shifted {
+    margin-left: 0;
+    /* Desloca o conteúdo quando a classe 'shifted' é adicionada */
+}

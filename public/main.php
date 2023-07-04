@@ -19,7 +19,7 @@
 
     <header>
         <div>
-            <?php include '../public/index.php'; ?>
+            <?php include '../public/sideBar.php'; ?>
         </div>
     </header>
 
@@ -58,11 +58,11 @@
                     </select>
                 </div>
                 <div id="botoes">
-                    <A href="./tabela.php">
-                        <button type="button" class="btn botoes" style="background-color: #f77594; color: black">Consultar Vendas</button>
+                    <A href="./tabela.php" style="text-decoration:none">
+                        <button type="button" class="btn botao" >Consultar Vendas</button>
                     </A>
 
-                    <button type="submit" class="btn botoes" style="background-color: #f77594; color: black">Salvar</button>
+                    <button type="submit" class="btn botao" >Salvar</button>
                 </div>
             </div>
         </form>
