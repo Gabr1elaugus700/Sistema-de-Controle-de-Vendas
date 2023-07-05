@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,9 +11,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </head>
-<style>
-    
-</style>
+
 <body>
     <nav class="sidebar close">
         <header>
@@ -43,7 +37,7 @@
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="./index.php">
                             <i class='bx bx-home-alt icon' ></i>
                             <span class="text nav-text">Painel</span>
                         </a>

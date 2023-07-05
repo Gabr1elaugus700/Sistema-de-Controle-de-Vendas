@@ -12,13 +12,15 @@
     --sidebar-color: #d8c3f4;
     --primary-color: #5f20b1;
     --primary-color-light: #ece1f9;
+    --secondary-collor:#d8c3f4;
     --text-color: #020104;
+
+    /* ===== Properties ===== */
     --background-color: #ece1f9;
     --border-table: 4px solid #5f20b1;
     --color-cabecalho: #d8c3f4;
     --button-collor: #5f20b1;
     --text-button: #ece1f9;
-
 }
 
 
