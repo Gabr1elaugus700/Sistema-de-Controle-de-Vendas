@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
     <link rel="stylesheet" href="../style/sidebar.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
@@ -16,7 +16,7 @@
     <nav class="sidebar close">
         <header>
             <div class="image-text">
-                
+
 
                 <div class="text logo-text">
                     <span class="name">CAMI FIT</span>
@@ -38,46 +38,47 @@
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="./index.php">
-                            <i class='bx bx-home-alt icon' ></i>
+                            <i class='bx bx-home-alt icon'></i>
                             <span class="text nav-text">Painel</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                            <span class="text nav-text">Vendas</span>
+                        <a href="./tabelas">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav-text">Tabelas</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Notifications</span>
+                        <a href="./calculaPreco.php">
+
+                            <i class='bx bx-math icon'></i>
+                            <span class="text nav-text">Calculo</span>
                         </a>
                     </li>
 
-                    <li class="nav-link">
-                        <a href="#">
-                            
-                            <i class='bx bx-math icon' ></i>
-                            <span class="text nav-text">Calculo De Preço</span>
-                        </a>
-                    </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-heart icon' ></i>
+                            <i class='bx bx-heart icon'></i>
                             <span class="text nav-text">Condicional</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Lembretes</span>
+                        </a>
+                    </li>
+                    <!--                     
+                    <li class="nav-link">
+                        <a href="#">
                             <i class='bx bxl-facebook-square icon' ></i>
                             <span class="text nav-text">Wallets</span>
                         </a>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div>
@@ -85,7 +86,7 @@
             <div class="bottom-content">
                 <li class="">
                     <a href="#">
-                        <i class='bx bx-log-out icon' ></i>
+                        <i class='bx bx-log-out icon'></i>
                         <span class="text nav-text">Logout</span>
                     </a>
                 </li>
@@ -101,42 +102,43 @@
                         <span class="switch"></span>
                     </div>
                 </li> -->
-                
+
             </div>
         </div>
 
     </nav>
 
-   
+
 
     <script>
         const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
+            sidebar = body.querySelector('nav'),
+            toggle = body.querySelector(".toggle"),
+            searchBtn = body.querySelector(".search-box"),
+            modeSwitch = body.querySelector(".toggle-switch"),
+            modeText = body.querySelector(".mode-text");
 
 
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
 
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
+        searchBtn.addEventListener("click", () => {
+            sidebar.classList.remove("close");
+        })
 
-// modeSwitch.addEventListener("click" , () =>{
-//     body.classList.toggle("dark");
-    
-//     if(body.classList.contains("dark")){
-//         modeText.innerText = "Light mode";
-//     }else{
-//         modeText.innerText = "Dark mode";
-        
-//     }
-// });
+        // modeSwitch.addEventListener("click" , () =>{
+        //     body.classList.toggle("dark");
+
+        //     if(body.classList.contains("dark")){
+        //         modeText.innerText = "Light mode";
+        //     }else{
+        //         modeText.innerText = "Dark mode";
+
+        //     }
+        // });
     </script>
 
 </body>
+
 </html>

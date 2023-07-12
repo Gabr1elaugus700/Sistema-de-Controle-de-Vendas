@@ -1,18 +1,24 @@
 @import url("./root.css");
 
-html{
-    background-color: #faa1b5;
-}
-.cont{
-    background-color: #faa1b5;
+
+.body{
+    background-color: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
     max-height: 50%;
+    color: var(--text-color);
 }
 
+.cont{
+    width: 400px;
+    padding: 20px;
+}
+
+.cont h3{
+    text-align: center;
+}
 .formCad{
     display: flex;
     align-items: center;
@@ -20,7 +26,7 @@ html{
     flex-direction: column;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid rgb(255, 255, 255);
+    border: var(--border-table);
     gap: 5px;
 
 }
@@ -48,4 +54,5 @@ html{
 
 .botoes{
     width: 250px;
+    background-color: var(--button-collor);
 }

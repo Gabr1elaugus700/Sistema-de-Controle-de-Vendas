@@ -57,65 +57,65 @@
                             <!-- <p class="card-text">Aqui, Encontra todas as vendas. Podendo Filtrar e exporta-las!</p> -->
                         </div>
                     </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../public/cadProd.php">
+                    <div class="card-body">
+                        <div class="itens-card">
+                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
+                            <h5 class="card-title">Cadastro de Venda</h5>
+                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../public/cadProd.php">
+                    <div class="card-body">
+                        <div class="itens-card">
+                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
+                            <h5 class="card-title">Cadastro de Venda</h5>
+                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../public/cadProd.php">
+                    <div class="card-body">
+                        <div class="itens-card">
+                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
+                            <h5 class="card-title">Cadastro de Venda</h5>
+                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../public/cadProd.php">
+                    <div class="card-body">
+                        <div class="itens-card">
+                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
+                            <h5 class="card-title">Cadastro de Venda</h5>
+                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../public/cadProd.php">
+                    <div class="card-body">
+                        <div class="itens-card">
+                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
+                            <h5 class="card-title">Cadastro de Venda</h5>
+                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-            </div>
-            <div class="card">
-                <a href="../public/cadProd.php">
-                    <div class="card-body">
-                        <div class="itens-card">
-                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
-                            <h5 class="card-title">Cadastro de Venda</h5>
-                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="../public/cadProd.php">
-                    <div class="card-body">
-                        <div class="itens-card">
-                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
-                            <h5 class="card-title">Cadastro de Venda</h5>
-                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="../public/cadProd.php">
-                    <div class="card-body">
-                        <div class="itens-card">
-                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
-                            <h5 class="card-title">Cadastro de Venda</h5>
-                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="../public/cadProd.php">
-                    <div class="card-body">
-                        <div class="itens-card">
-                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
-                            <h5 class="card-title">Cadastro de Venda</h5>
-                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="../public/cadProd.php">
-                    <div class="card-body">
-                        <div class="itens-card">
-                            <span class="imgCard"><img src="../img/iconCard/ponto-de-venda.png" alt="Vendas"></span>
-                            <h5 class="card-title">Cadastro de Venda</h5>
-                            <!-- <p class="card-text">Nessa tela, você pode cadastrar novos produtos ou adicionar estoque aos produtos já existente em seu sistema!</p> -->
-                        </div>
-                    </div>
-                </a>
-            </div>
 
-            
 
 
         </div>

@@ -1,0 +1,77 @@
+@import url("./root.css");
+
+.body{
+    background-color:  var(--background-color);
+    margin-left: 6rem;
+    padding: 15px;
+    
+}
+
+.card a{ 
+    text-decoration: none;
+    color: var(--text-color);
+} 
+.tudo{
+    color: var(--text-color);
+    flex-wrap: nowrap;
+}
+
+.card-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    column-gap: 10px;
+    flex-wrap: nowrap;
+  }
+  
+  .card {
+    background-color: var(--sidebar-color);
+    color: var(--text-color);
+    transition: 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: var(--primary-color);
+    color: var(--text-button);
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+
+  .card:hover ~ .card {
+    transform: translateX(2%);/* Desloca os outros cards para a direita */
+  }
+/*   
+  .card:hover ~ .card:hover {
+    transform: translateX(40px); 
+  } 
+  */
+  .card:hover a{
+    color: var(--text-button);
+  }
+  .imgCard img{
+    height: 60px;
+    width: 60px;
+  }
+
+  .itens-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* 
+  .itens-card, img{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    background-color: rebeccapurple;
+  } */
+
+  
+  .itens-card {
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: aqua;
+  }
